@@ -1,0 +1,256 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#edd7be;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+nav {
+    width: 100%;
+   overflow: auto;
+   background: #3f1817;
+   padding: 10px;
+   margin-top: -8px;
+  
+  }
+  .logo img {
+    position: absolute;
+    margin-top: -229px;
+    margin-left: -850px;
+    height: fit-content;
+   }
+   ul {
+    padding: 0;
+    margin: 0 0 0 300px;
+    list-style: none;
+   }
+   
+   li {
+    float: left;
+   }
+   
+   .dropdownmenu ul,
+   .dropdownmenu li {
+    margin: 0;
+    padding: 0;
+   }
+   
+   .dropdownmenu li {
+    float: left;
+    width: auto;
+   }
+   
+   .dropdownmenu a {
+    color: #d1a46e;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease;
+   }
+   
+   .dropdownmenu li:hover a {
+    background-color: #3f1817;
+   }
+   
+   #submenu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: -70px;
+    visibility: hidden;
+    /* z-index: 1; */
+    color: #3f1817;
+   }
+   
+   li:hover ul#submenu {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+   }
+   
+   #submenu li {
+    float: none;
+    width: 100%;
+    position: relative;
+   }
+   
+   #submenu a:hover {
+    background: #edd7be;
+    border: 2px solid #542827;
+    color: #542827;
+   }
+   
+   #submenu a {
+    background: #3f1817;
+   }
+   
+   #submenu2 {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: -70px;
+    visibility: hidden;
+    /* z-index: 1; */
+    color: #3f1817;
+   }
+   
+   li:hover ul#submenu2 {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    /* position: relative; */
+   }
+   
+   #submenu2 li {
+    float: none;
+    width: 100%;
+    position: relative;
+   }
+   
+   #submenu2 a:hover {
+    background: #edd7be;
+    border: 2px solid #542827;
+    color: #542827;
+   }
+   
+   #submenu2 a {
+    background: #3f1817;
+   }
+   
+   #submenu3 {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: -70px;
+    visibility: hidden;
+    /* z-index: 1; */
+    color: #3f1817;
+   }
+   
+   li:hover ul#submenu3 {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    /* position: relative; */
+   }
+   
+   #submenu3 li {
+    float: none;
+    width: 100%;
+    position: relative;
+   }
+   
+   #submenu3 a:hover {
+    background: #edd7be;
+    border: 2px solid #542827;
+    color: #542827;
+   }
+   
+   #submenu3 a {
+    background: #3f1817;
+   }
+   
+ 
+.main_body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#edd7be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}   
+
+.container {
+    background:#ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+.chat{
+   
+    background:#ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 310px;
+    margin-left: 100px;
+    margin-right: -400px;
+}
+
+.chat img {
+   margin-left: 120px;
+    
+}
+
+img {
+    height: 50px;
+
+}
+.chat h2{
+    margin-left: 100px;
+}
+.chat p{
+    margin-left: 115px;
+    margin-top:-10px;
+}
+.chat a img{
+    height: 100px;
+    margin-left: 107px;
+}
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-weight:bold;
+
+    color: #080808;
+}
+
+input, textarea {
+    
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background: #fb1313;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    box-shadow: 0px 0px 7px red;
+    cursor: pointer;
+}
+
+#responseMessage {
+    margin-top: 10px;
+    color: green;
+    font-size: 14px;
+}

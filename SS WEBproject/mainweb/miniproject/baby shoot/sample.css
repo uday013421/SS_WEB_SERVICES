@@ -1,0 +1,16 @@
+*{
+    margin: opx;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.headding{
+   text-align: center;
+   height: 200px;
+
+}
+
+.hd{
+    text-align: center;
+}
